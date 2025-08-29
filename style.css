@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+li{
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #000;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar-search{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn{
+    border: orange 15px solid;
+    background-color: orange;
+    display: inline-block;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    height: 30%;
+}
+
+.header{
+        background-image: url('./food\ 1.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #000;
+        height: 100%;
+}
+
+.header-text{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.header-text h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.header-text h3{
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 0 20em;
+}
+
+header .btn{
+    margin: 70px 650px;
+    padding: 10px 30px;
+}
+
+#about{
+    height: 70%;
+}
+
+.about-section{
+    background-color: black;
+    height: 100%;
+}
+
+.about-section-txt{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.about-section-txt h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about-section-txt h2{
+    font-size: 35px;
+    letter-spacing: 8px;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 5em 50px;
+}
+
+.taste{
+    text-align: center;
+    background-color: grey;
+    border: grey 5px solid;
+}
+
+.taste-txt{
+    padding: 50px;
+}
+
+.taste-txt h4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.taste-txt h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.taste-txt h5{
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+
+.about-btn{
+    border: orange 15px solid;
+        background-color: orange;
+        display: inline-block;
+}
